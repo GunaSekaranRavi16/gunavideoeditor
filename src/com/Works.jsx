@@ -8,21 +8,23 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // ✅ Import icons
 
 function Works() {
   const shortVideos = [
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v1.mp4", label: "A2B (Parrot Brand)" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v2.mp4", label: "Brand 2" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v3.mp4", label: "Brand 3" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v4.mp4", label: "Brand 4" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v5.mp4", label: "Brand 5" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v6.mp4", label: "Brand 6" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v7.mp4", label: "Brand 7" },
-    { src: "https://ik.imagekit.io/6iu0mfpedy/v8.mp4", label: "Brand 8" },
-    { src: "https://ik.imagekit.io/48on8e3ev/v9.mp4", label: "Brand 9" },
+    
+    { src: "https://ik.imagekit.io/48on8e3ev/v9.mp4", label: "A2B(personalBranding)" },
+     { src: "https://ik.imagekit.io/6iu0mfpedy/v4.mp4", label: "lalithaa (personalBranding)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v1.mp4", label: "VRG Tech(Branding videos)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v2.mp4", label: "VRG Tech(Content)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v3.mp4", label: "Eventraa(personalBranding)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v5.mp4", label: "rs.venkateswaran(influencer)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v6.mp4", label: "Develop with Guna(Content Creator)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v7.mp4", label: "GIGA(Branding videos)" },
+    { src: "https://ik.imagekit.io/6iu0mfpedy/v8.mp4", label: "Develop with Guna(Content Creator)" },
+    
   ];
 
   const longVideos = [
-    { src: "https://ik.imagekit.io/48on8e3ev/ad9.mp4", label: "Long Video 1" },
-    { src: "https://ik.imagekit.io/48on8e3ev/ad1.mp4", label: "Long Video 2" },
-    { src: "https://ik.imagekit.io/48on8e3ev/ad2.mp4", label: "Long Video 3" },
+    { src: "https://ik.imagekit.io/48on8e3ev/ad9.mp4", label: "(AIVideo generation) Femi9" },
+    { src: "https://ik.imagekit.io/48on8e3ev/ad1.mp4", label: "(Animation Video ) GIGA" },
+    { src: "https://ik.imagekit.io/48on8e3ev/ad2.mp4", label: "(Tutorial) Sanjeev NC - Tamil" },
   ];
 
   return (

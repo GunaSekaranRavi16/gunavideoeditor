@@ -1,24 +1,30 @@
+import { color } from "framer-motion";
+
 export default function About() {
   const experiences = [
     {
       company: "CCMedia Marketing Solutions",
       year: "Agency Experience",
+      date:"march 2023 - present",
       details: [
-        "Branding & personal videos",
         "AI-generated edits",
         "Multilingual content: Hindi, Telugu, Kannada",
-      ],
-    },
-    {
-      company: "Freelance Projects",
-      year: "Worked with top brands & creators",
-      details: [
         "Lalithaa Jewellery",
         "A2B (Adyar Ananda Bhavan)",
         "Femi9",
         "GIGA Shockmarket Company",
         "VRG Software Training Company",
-        "Leading Tamil Nadu creators",
+      ],
+    },
+    {
+      company: "Freelance Projects",
+      year: "Worked with top creators in tamil nadu",
+      details: [
+        "Branding & personal videos",
+        "YouTube vidoes",
+        "Brand AD Videos",
+
+        
       ],
     },
   ];
@@ -48,7 +54,8 @@ export default function About() {
             <h3 className="text-xl font-semibold text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0.8)] mb-2">
               {exp.company}
             </h3>
-            <p className="text-gray-400 mb-4">{exp.year}</p>
+            <p className="text-gray-400 mb-4">{exp.year}<br/><b>{exp.date}</b></p>
+             {/* <p className="text-gray-400 mb-4">{exp.date}</p> */}
             <ul className="list-disc list-inside space-y-2 text-gray-200">
               {exp.details.map((detail, i) => (
                 <li
